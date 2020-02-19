@@ -9,6 +9,10 @@
       <Content Include="Passes\Coupon.pkpass">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
+      <None Remove="Passes\Generic.pkpass" />
+      <Content Include="Passes\Generic.pkpass">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 
