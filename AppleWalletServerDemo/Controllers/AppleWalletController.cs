@@ -12,7 +12,7 @@ namespace AppleWalletServerDemo.Controllers
         [HttpGet]
         public async Task<ActionResult<byte[]>> GetAsync()
         {
-            var passPath = "./Passes/Coupon.pkpass";
+            var passPath = "./Passes/Generic.pkpass";
 
             var pkpassFileFileBytes = await System.IO.File.ReadAllBytesAsync(passPath);
             
